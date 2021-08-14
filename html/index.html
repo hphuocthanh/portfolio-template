@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hphuocthanh portfolio website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;600;900&family=Nunito+Sans:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/img/hphuocthanh_logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#interests" class="nav__link">My Interests</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Thanh Phuoc</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        your friendly react dev
+      </p>
+      <img
+        src="/img/hphuocthanh_1.jpg"
+        alt="a picture of hphuocthanh smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design</h3>
+          <p>Create simple and attractive user interfaces for your needs</p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Development</h3>
+          <p>
+            Make wonderful interactive interfaces with JavaScript, ReactJS and
+            more
+          </p>
+        </div>
+        <!-- / service -->
+
+        <!-- <div class="service">
+          <h3>Kinda Full-stack</h3>
+          <p>Build backend services using Java Springboot and .NET</p>
+        </div> -->
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn"> My Work </a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Developer based in HCM
+      </p>
+      <div class="about-me__body">
+        <p>Frontend Web Developer (JavaScript · React)</p>
+        <p>
+          Mainly self-taught from googling and making personal projects. I'm
+          interested in startups and futuristic technologies.
+        </p>
+        <p>
+          Before diving into web development, my background is mostly in
+          academic English specialization. My switch to web development came
+          when I knew that making meaningful tech was a strong fit for my
+          personality and aspirations.
+        </p>
+      </div>
+      <img
+        src="/img/hphuocthanh_2.jpg"
+        alt="Thanh doing something"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my work
+      </p>
+      <div class="portfolio">
+        <a href="grocery_store.html" class="portfolio__item">
+          <img
+            class="portfolio__img"
+            src="/img/grocerystore_bg.png"
+            alt="background for grocery store project"
+          />
+        </a>
+        <a href="notflix.html" class="portfolio__item">
+          <img
+            class="portfolio__img"
+            src="/img/notflix_bg.png"
+            alt="background for notflix project"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- My Interests -->
+    <section class="my-interests" id="interests">
+      <h2 class="section__title section__title--interests">My Interests</h2>
+      <p class="section__subtitle section__subtitle--interests">
+        What I like to do
+      </p>
+      <div class="my-interests__body">
+        <p class="my-interests__item">
+          <img
+            src="/img/learn-korean.gif"
+            alt="highlighting a korean textbook"
+            class="my-interests__img"
+          />
+          <span>Learning Languages</span>
+        </p>
+        <p class="my-interests__item">
+          <img
+            src="/img/coffee-cat.gif"
+            alt="cat drinking coffee"
+            class="my-interests__img"
+          />
+          <span>Drinking Coffee</span>
+        </p>
+        <p class="my-interests__item">
+          <img
+            src="/img/stackoverflow.gif"
+            alt="a man pointing at a screen showing stackoverflow logo"
+            class="my-interests__img"
+          />
+          <span>Checking Stackoverflow</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:phuocthanhqt113@gmail.com" class="footer__link"
+        >phuocthanhqt113@gmai.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/hphuocthanh"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/hphuocthanh/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/hphuocthanh/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/hphuocthanh"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

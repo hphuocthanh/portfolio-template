@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hphuocthanh portfolio website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;600;900&family=Nunito+Sans:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html" class="nav__link"><img src="/img/hphuocthanh_logo.png" alt="" /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#interests" class="nav__link">My Interests</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Grocery Store <strong>Management</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Mini Capstone</p>
+      <img src="/img/grocerystore_intro.png" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        In short, this project aims to provide small to medium-sized grocery
+        stores in Vietnam with a management and POS system that encompasses a
+        variety of functionalities.
+      </p>
+      <p>
+        <small>
+          This is a collaboration work. I designed the interface for POS,
+          handled everything for Product List Mangement page, refactored and
+          made small improvements as the project went on.
+        </small>
+      </p>
+      <img src="/img/grocerystore_1.png" alt="the POS page for cashiers" />
+      <p>
+        <strong>For the POS</strong>, we want to make it as intuitive as
+        possible. The layout is pretty straightforward, with half left of the
+        screen for product selection and the other half for checkout.
+      </p>
+      <img
+        src="/img/grocerystore_2.png"
+        alt="the checkout modal for bill confirmation"
+      />
+      <p>
+        New and regular customers can also gain and apply points for each of
+        their bills. Checkout allows the cashiers to take a final look at the
+        bill before proceeding.
+      </p>
+      <div class="divider"></div>
+      <img
+        src="/img/grocerystore_3.png"
+        alt="the admin management page for store owners"
+      />
+      <p>
+        <strong>For the Admin Management</strong>, we want to make it as
+        informative as possible. The homepage is the dashboard, with the most
+        important information being displayed.
+      </p>
+      <img
+        src="/img/grocerystore_4.png"
+        alt="the product list management page for store owners"
+      />
+      <p></p>
+      <img
+        src="/img/grocerystore_5.png"
+        alt="the statistics page for store owners"
+      />
+      <p>
+        The other pages offer more management operations for the admin (store
+        owners), such as Inventory Management, Import Goods, Receipt List
+        Management, Product List Management, Statistics,...
+      </p>
+    </div>
+
+    <div class="portfolio-item-individual">
+      <p><em>Find out more about this project here:</em></p>
+      <p>
+        <a
+          href="https://github.com/TranMinhQuanKun/SWP_GSM"
+          target="_blank"
+          class="portfolio-item-link"
+        >
+          The Github Repo
+        </a>
+      </p>
+      <p>
+        <a
+          href="https://www.youtube.com/watch?v=AZcWgar3viY"
+          target="_blank"
+          class="portfolio-item-link"
+        >
+          Presentation on Youtube (in Vietnamese)
+        </a>
+      </p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:phuocthanhqt113@gmail.com" class="footer__link"
+        >phuocthanhqt113@gmai.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/hphuocthanh"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/hphuocthanh/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/hphuocthanh/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/hphuocthanh"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

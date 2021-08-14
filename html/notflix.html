@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hphuocthanh portfolio website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;600;900&family=Nunito+Sans:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html" class="nav__link"><img src="/img/hphuocthanh_logo.png" alt="" /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#interests" class="nav__link">My Interests</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Netflix Clone <strong>Notflix</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Side Project</p>
+      <img src="/img/notflix_intro.png" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        In short, this is a clone of netflix.com where users can authenticate
+        themselves, select viewer profiles, browse films and series, and watch
+        videos online.
+      </p>
+      <p>
+        <a
+          href="https://netflix-hphuocthanh.netlify.app/"
+          class="portfolio-item-individual__link"
+          >View Demo</a
+        >
+      </p>
+      <p><strong>Home page</strong></p>
+      <img src="/img/notflix_1.png" alt="the welcome page for notflix" />
+      <div class="divider"></div>
+
+      <p><strong>Sign in</strong></p>
+      <img src="/img/notflix_2.png" alt="the signin page of notflix" />
+      <div class="divider"></div>
+
+      <p><strong>Profiles</strong></p>
+      <img src="/img/notflix_3.png" alt="the profile page of notflix" />
+      <div class="divider"></div>
+
+      <p><strong>Welcome page</strong></p>
+      <img
+        src="/img/notflix_4.png"
+        alt="the welcome page after sign in of notflix"
+      />
+      <div class="divider"></div>
+
+      <p><strong>Feature Movie</strong></p>
+      <img src="/img/notflix_5.png" alt="the office tv shows in notflix" />
+
+      <div class="divider"></div>
+      <p>
+        This was a 5-day project in an attempt to understand the advanced React
+        codebase. Project goals included getting myself familiar with advanced
+        techniques in React and not afraid to code something big. I coded along
+        with the tutorial of Karl Hadwen (find him on
+        <a href="https://www.youtube.com/channel/UC1DUQiZduv_yNZy0O7n_iHA"
+          >Youtube</a
+        >).
+      </p>
+      <p>
+        I added several modifications like multiple user profiles, Facebook
+        authentication (though it's in development mode so only a few can use
+        this feature) and UI adjustments for a close resemblance to the netflix
+        website in Vietnam (added animation in the Jumbotron).
+      </p>
+      <p>
+        At the end of the day, the technologies implemented in this project are
+        React, React-Router, Styled Components, Fuse.js and Firebase.
+      </p>
+    </div>
+
+    <div class="portfolio-item-individual">
+      <p><em>Find out more about this project here:</em></p>
+      <p>
+        <a
+          href="https://github.com/hphuocthanh/netflix-clone"
+          target="_blank"
+          class="portfolio-item-link"
+        >
+          The Github Repo
+        </a>
+      </p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:phuocthanhqt113@gmail.com" class="footer__link"
+        >phuocthanhqt113@gmai.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/hphuocthanh"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/hphuocthanh/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/hphuocthanh/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/hphuocthanh"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
