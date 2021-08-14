@@ -23,7 +23,7 @@ Clone down this repository and open `index.html`
 
 ## Reflection
 
-This was a short project in an attempt to make a portfolio using custom CSS properties.
+This was a short project in an attempt to make a portfolio using custom CSS properties, CSS Grid and Flexbox.
 
 I coded along with the tutorial of Kevin Powel (find him on [his website](https://www.kevinpowell.co/)). I added several modifications like 'My Interests' section, added several pages for work projects and modified the CSS to my liking.
 
