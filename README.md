@@ -33,7 +33,6 @@ At the end of the day, it's vanilla JavaScript and heavily geared towards using 
 
 ## Acknowledgements
 
-- [The Frontend Developer Career Path](https://scrimba.com/learn/frontend)
 - [Kevin Powell](https://www.kevinpowell.co/)
 
 
