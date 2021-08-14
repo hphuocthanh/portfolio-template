@@ -1,23 +1,24 @@
 {
   "name": "portfolio-template",
   "version": "1.0.0",
-  "description": "make a portfolio template",
-  "main": "js/index.js",
+  "description": "a portfolio template with vanilla js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hphuocthanh/portfolio-template.git"
   },
   "keywords": [
-    "porfolio"
+    "portfolio"
   ],
   "author": "hphuocthanh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hphuocthanh/portfolio-template/issues"
   },
-  "homepage": "https://github.com/hphuocthanh/portfolio-template#readme"
+  "homepage": "https://github.com/hphuocthanh/portfolio-template#readme",
+  "devDependencies": {},
+  "dependencies": {}
 }
